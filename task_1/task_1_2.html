@@ -10,10 +10,17 @@
     <form>
         <label for="cars">Марка автомобиля:</label> <br />
         <div id="cars"> <!-- screenreader вроде будет читать слепым "Марка автомобиля" при наведении -->
-            <input type="checkbox" name="bmv">БМВ</input> <br />
-            <input type="checkbox" name="mercedes">Мерседес</input> <br />
-            <input type="checkbox" name="audi">Ауди</input> <br />
-            <input type="checkbox" name="lexus">Лексус</input> <br />
+            <input id="input_bmv" type="checkbox" name="bmv" />
+            <label for="input_bmv">БМВ</label> <br />
+
+            <input id="input_mercedes" type="checkbox" name="mercedes" />
+            <label for="input_mercedes">Мерседес</label> <br />
+
+            <input id="input_audi" type="checkbox" name="audi" /> 
+            <label for="input_audi">Ауди</label> <br />
+
+            <input id="input_lexus" type="checkbox" name="lexus" />
+            <label for="input_lexus">Лексус</label> <br />
         </div>
         <input type="submit" name="OK" value="OK" />
     </form>
